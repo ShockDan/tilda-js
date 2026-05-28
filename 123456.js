@@ -1,4 +1,4 @@
-<script>
+
 (function(){
     var cfg = {
         bg: "#0e0e11", pts: [{"x":0.5069437317165427,"y":0,"r":0.8,"a":0.1,"c":"#04ff00","d":1,"rgb":0.0020235655975217527,"s":0.7,"rt":0.96}],
@@ -104,4 +104,3 @@
     if (typeof t_onReady === 'function') { t_onReady(function() { setTimeout(dbmInject, 500); }); }
     else { document.addEventListener('DOMContentLoaded', function(){ setTimeout(dbmInject, 500); }); }
 })();
-</script>
